@@ -13,6 +13,7 @@
 		C4EADB6B202737C50071E497 /* SASAPIHandler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4EADB69202737C50071E497 /* SASAPIHandler.xcdatamodeld */; };
 		C4EADB6D202737C50071E497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EADB6C202737C50071E497 /* Assets.xcassets */; };
 		C4EADB70202737C50071E497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EADB6E202737C50071E497 /* LaunchScreen.storyboard */; };
+		C4EADB79202738480071E497 /* SASAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EADB78202738480071E497 /* SASAPIHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C4EADB6C202737C50071E497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4EADB6F202737C50071E497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4EADB71202737C50071E497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EADB78202738480071E497 /* SASAPIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SASAPIHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		C4EADB61202737C50071E497 /* SASAPIHandler */ = {
 			isa = PBXGroup;
 			children = (
+				C4EADB772027380C0071E497 /* APIHandler */,
 				C4EADB62202737C50071E497 /* AppDelegate.swift */,
 				C4EADB64202737C50071E497 /* ViewController.swift */,
 				C4EADB66202737C50071E497 /* Main.storyboard */,
@@ -65,6 +68,14 @@
 				C4EADB69202737C50071E497 /* SASAPIHandler.xcdatamodeld */,
 			);
 			path = SASAPIHandler;
+			sourceTree = "<group>";
+		};
+		C4EADB772027380C0071E497 /* APIHandler */ = {
+			isa = PBXGroup;
+			children = (
+				C4EADB78202738480071E497 /* SASAPIHandler.swift */,
+			);
+			path = APIHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4EADB65202737C50071E497 /* ViewController.swift in Sources */,
+				C4EADB79202738480071E497 /* SASAPIHandler.swift in Sources */,
 				C4EADB6B202737C50071E497 /* SASAPIHandler.xcdatamodeld in Sources */,
 				C4EADB63202737C50071E497 /* AppDelegate.swift in Sources */,
 			);
